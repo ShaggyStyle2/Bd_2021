@@ -44,11 +44,12 @@ public class Registro {
        } catch (SQLException e) {
            
            System.out.println("Error sql al agregar Libro");
-       
+           return false;
        }catch (Exception e){
            System.out.println("Error al agregar libro");
            return false;
        }
+       
        
        
    }
